@@ -1,0 +1,15 @@
+
+LUVASKY HERNANDEZ RAMIREZ
+hace 1 año
+Estaba usando NetBeants y no me mostraba el logo de coca-cola, les dejo el metodo que me funcion: 
+
+logo= new JLabel();
+  logo.setBounds(30,50,300,200);  
+  /* para crear un JLable tipo Image debemos tener la paquete image en source*/
+  wallpaper= new ImageIcon("src/image/logo-coca.png");
+  Icon icono=new ImageIcon(wallpaper.getImage().getScaledInstance(logo.getWidth(),
+  logo.getHeight(),Image.SCALE_DEFAULT));  
+  logo.setIcon(icono);
+  add(logo); 
+
+Espero les sirva !
